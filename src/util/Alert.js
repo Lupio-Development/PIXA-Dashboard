@@ -23,14 +23,16 @@ export const warningAccept = () => {
 };
 
 //Delete Warning for category
-export const warningForText = (text) => {
-  return swal({
+export const  warningForText = async (text) => {
+  const result = await  swal({
     title: "Are You Sure!",
     text: text,
     icon: "warning",
     dangerMode: true,
     buttons: true,
   });
+  
+  return result
 };
 
 

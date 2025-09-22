@@ -1,9 +1,9 @@
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-// toast.configure();
+import swal from "sweetalert";
+
 
 export const setToast = (type, data) => {
-  
   return toast(data, {
     type: type,
     position: "top-right",

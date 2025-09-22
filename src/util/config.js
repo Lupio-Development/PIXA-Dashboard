@@ -1,3 +1,3 @@
-export const baseURL = "";
-export const secretKey = "";
-export const projectName = "";
+export const baseURL = "https://admin.mypixa.com/";
+export const secretKey = "5TIvw5cpc0";
+export const projectName = "PIXA Admin";
